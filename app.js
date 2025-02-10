@@ -1,5 +1,5 @@
 let boxes = document.querySelectorAll(".box");
-let resetbtn = document.querySelector(".reset-btn");
+let resetbtn = document.querySelector("#reset-btn");
 let newGameBtn = document.querySelector("#new-btn");
 let msgcontainer = document.querySelector(".msg-container");
 let msg = document.querySelector("#msg");
@@ -21,16 +21,15 @@ const resetGame = () => {
   turn0 = true;
   enableBoxes();
   msgcontainer.classList.add("hide");
+  resetbtn.classList.remove("hide"); // Unhide reset button on new game
 };
 
 boxes.forEach((box) => {
   box.addEventListener("click", () => {
     if (turn0) {
-      console.log("o");
       box.innerText = "o";
       turn0 = false;
     } else {
-      console.log("x");
       box.innerText = "x";
       turn0 = true;
     }
@@ -52,10 +51,11 @@ const enableBoxes = () => {
   }
 };
 
-const showWinner = (Winner) => {
-  msg.innerText = `Congratulation Winner is ${Winner}`;
+const showWinner = (winner) => {
+  msg.innerText = `Congratulations! Winner is ${winner}`;
   msgcontainer.classList.remove("hide");
   disableBoxes();
+  resetbtn.classList.add("hide"); // Hide reset button when winner is found
 };
 
 const checkwinner = () => {
@@ -64,10 +64,10 @@ const checkwinner = () => {
     let pos2val = boxes[pattern[1]].innerText;
     let pos3val = boxes[pattern[2]].innerText;
 
-    if (pos1val != "" && pos2val != "" && pos3val != "") {
+    if (pos1val !== "" && pos2val !== "" && pos3val !== "") {
       if (pos1val === pos2val && pos2val === pos3val) {
-        console.log("Winner", pos1val);
         showWinner(pos1val);
+        return;
       }
     }
   }

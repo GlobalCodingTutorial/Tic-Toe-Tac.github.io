@@ -64,7 +64,7 @@ h2 {
   border-style: none;
 }
 
-.reset-btn {
+#reset-btn {
   color: white;
   background-color: #191913;
   font-size: 1.25rem;
@@ -73,7 +73,9 @@ h2 {
   border-radius: 1rem;
   margin-bottom: 6vmin;
 }
-
+#reset-btn.hide {
+  display: none;
+}
 @media (max-width: 768px) {
   .msg-container {
     margin-bottom: 5vmin;
