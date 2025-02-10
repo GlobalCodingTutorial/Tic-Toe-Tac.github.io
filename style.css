@@ -9,7 +9,7 @@ body {
 }
 
 .msg-container {
-  height: 30vmin;
+  height: 22vmin;
 }
 
 .hide {
@@ -64,72 +64,21 @@ h2 {
   border-style: none;
 }
 
-#reset-btn {
+.reset-btn {
   color: white;
   background-color: #191913;
   font-size: 1.25rem;
   padding: 1rem;
   border: none;
   border-radius: 1rem;
+  margin-bottom: 6vmin;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
-  h2 {
-    font-size: 10vw;
+  .msg-container {
+    margin-bottom: 5vmin;
   }
-
-  #msg {
-    font-size: 10vw;
-  }
-
   .container {
-    margin-top: 10vw;
-  }
-
-  .game {
-    width: 80vw;
-    height: 50vh;
-  }
-
-  .box {
-    height: 20vw;
-    width: 20vw;
-    font-size: 10vw;
-  }
-
-  #new-btn, #reset-btn {
-    font-size: 4vw;
-    padding: 3vw;
-  }
-}
-
-@media (max-width: 480px) {
-  h2 {
-    font-size: 12vw;
-  }
-
-  #msg {
-    font-size: 12vw;
-  }
-
-  .container {
-    margin-top: 15vw;
-  }
-
-  .game {
-    width: 90vw;
-    height: 40vh;
-  }
-
-  .box {
-    height: 25vw;
-    width: 25vw;
-    font-size: 12vw;
-  }
-
-  #new-btn, #reset-btn {
-    font-size: 5vw;
-    padding: 4vw;
+    margin-bottom: -70vmin;
   }
 }
