@@ -76,18 +76,16 @@ h2 {
 #reset-btn.hide {
   display: none;
 }
-/* Small devices (up to 576px) */
+
 @media (min-width: 576px) {
   .msg-container {
-    margin-bottom: 15vmin; /* Adjusted for smaller screens */
+    margin-bottom: 5vmin; 
   }
   .container {
-    margin-bottom: 0vmin; /* Less negative margin 
-    for better layout */
+    margin-bottom: 0vmin; 
   }
 }
 
-/* Medium devices (577px to 1024px) - Covers tablets and Desktop Site Mode on mobiles */
 @media (min-width: 577px) and (max-width: 1024px) {
   .msg-container#new-btn {
     margin-bottom: 10vmin;
@@ -98,7 +96,6 @@ h2 {
   }
 }
 
-/* Specifically targeting Realme C31 in desktop mode */
 @media (min-width: 721px) and (max-width: 1024px) {
   .msg-container#new-btn {
     margin-bottom: 12vmin;
