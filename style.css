@@ -87,18 +87,18 @@ h2 {
   }
 }
 
-/* Medium devices (577px to 768px) */
-@media (min-width: 577px) and (max-width: 768px) {
+/* Medium devices (577px to 1024px) - Covers tablets and Desktop Site Mode on mobiles */
+@media (min-width: 577px) and (max-width: 1024px) {
   .msg-container {
-    margin-bottom: 25vmin;
+    margin-bottom: 18vmin;
   }
   .container {
     margin-bottom: -60vmin;
   }
 }
 
-/* For Realme C31 (720px width) */
-@media (max-width: 720px) {
+/* Specifically targeting Realme C31 in desktop mode */
+@media (min-width: 721px) and (max-width: 1024px) {
   .msg-container {
     margin-bottom: 20vmin;
   }
