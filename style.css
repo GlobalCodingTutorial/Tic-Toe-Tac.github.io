@@ -89,8 +89,8 @@ h2 {
 
 /* Medium devices (577px to 1024px) - Covers tablets and Desktop Site Mode on mobiles */
 @media (min-width: 577px) and (max-width: 1024px) {
-  .msg-container {
-    margin-bottom: 18vmin;
+  .msg-container#new-btn {
+    margin-bottom: 10vmin;
   }
   .container {
     margin-bottom: -60vmin;
@@ -99,8 +99,8 @@ h2 {
 
 /* Specifically targeting Realme C31 in desktop mode */
 @media (min-width: 721px) and (max-width: 1024px) {
-  .msg-container {
-    margin-bottom: 20vmin;
+  .msg-container#new-btn {
+    margin-bottom: 12vmin;
   }
   .container {
     margin-bottom: -70vmin;
