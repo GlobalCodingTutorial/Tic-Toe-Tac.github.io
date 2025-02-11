@@ -78,7 +78,7 @@ h2 {
 }
 @media (max-width: 720px) {
   .msg-container {
-    margin-bottom: 5vmin;
+    margin-bottom: 20vmin;
   }
   .container {
     margin-bottom: -70vmin;
