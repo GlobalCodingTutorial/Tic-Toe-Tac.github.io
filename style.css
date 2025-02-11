@@ -77,7 +77,8 @@ h2 {
 #reset-btn.hide {
   display: none;
 }
-@media (max-width: 768px) {
+/* Small devices (up to 576px) */
+@media (max-width: 412px) and (min-width: 915px) {
   .msg-container {
     margin-bottom: 15vmin; /* Adjusted for smaller screens */
   }
@@ -107,3 +108,5 @@ h2 {
     margin-bottom: -70vmin;
   }
 }
+
+
