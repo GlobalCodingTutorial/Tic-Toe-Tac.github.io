@@ -10,7 +10,6 @@ body {
 
 .msg-container {
   height: 22vmin;
-  
 }
 
 .hide {
@@ -78,12 +77,14 @@ h2 {
   display: none;
 }
 /* Small devices (up to 576px) */
-@media (max-width: 412px) and (min-width: 915px) {
+@media (min-width: 576px) {
   .msg-container {
     margin-bottom: 15vmin; /* Adjusted for smaller screens */
   }
   .container {
-    margin-bottom: -50vmin; /* Less negative margin for better layout */
+    margin-bottom: -50vmin; /* Less negative margin 
+    for better layout */
+    margin-top: 10vmin;
   }
 }
 
@@ -108,5 +109,3 @@ h2 {
     margin-bottom: -70vmin;
   }
 }
-
-
