@@ -2,4 +2,13 @@
 
 javascript logic based a Game
 
-Check demo :- https://globalcodingtutorial.github.io/Tic-Toe-Tac/
+
+Technologies Used:-
+
+HTML
+
+CSS
+
+JavaScript (Factory Functions and Module Pattern)
+
+Demo https://globalcodingtutorial.github.io/Tic-Toe-Tac/
