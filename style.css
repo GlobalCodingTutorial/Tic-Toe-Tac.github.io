@@ -82,9 +82,8 @@ h2 {
     margin-bottom: 15vmin; /* Adjusted for smaller screens */
   }
   .container {
-    margin-bottom: -50vmin; /* Less negative margin 
+    margin-bottom: 0vmin; /* Less negative margin 
     for better layout */
-    margin-top: 10vmin;
   }
 }
 
@@ -107,5 +106,22 @@ h2 {
   .container {
     margin-top: 10vmin;
     margin-bottom: -70vmin;
+  }
+}
+
+@media (min-width: 412px) and (max-width: 915px) {
+  .container {
+    margin-top: 10vmin;
+    margin-bottom: -80vmin;
+  }
+  #new-btn {
+    color: white;
+    background-color: #191913;
+    font-size: 1.12rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
   }
 }
