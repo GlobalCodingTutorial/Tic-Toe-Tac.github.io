@@ -90,7 +90,7 @@ h2 {
 /* Medium devices (577px to 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
   .msg-container {
-    margin-bottom: 18vmin;
+    margin-bottom: 25vmin;
   }
   .container {
     margin-bottom: -60vmin;
