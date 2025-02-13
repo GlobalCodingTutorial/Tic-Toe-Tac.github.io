@@ -87,6 +87,35 @@ h2 {
   }
 }
 
+@media (min-width: 412px) and (max-width: 915px) {
+  .container {
+    margin-top: 5vmin;
+  }
+  #new-btn {
+    font-size: 1rem;
+    padding: 0.69rem;
+    border-radius: 1rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .msg-container {
+    height: 24vmin;
+  }
+  #reset-btn {
+    font-size: 1rem;
+    padding: 0.69rem;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 80vmin;
+  }
+
+  h2 {
+    margin-top: 8vmin;
+    height: 8vmin;
+  }
+}
+
 @media (min-width: 577px) and (max-width: 1024px) {
   .msg-container#new-btn {
     margin-bottom: 10vmin;
@@ -124,34 +153,5 @@ h2 {
   #reset-btn {
     position: relative;
     top: 50vmin;
-  }
-}
-
-@media (min-width: 412px) and (max-width: 915px) {
-  .container {
-    margin-top: 5vmin;
-  }
-  #new-btn {
-    font-size: 1rem;
-    padding: 0.69rem;
-    border-radius: 1rem;
-    margin-top: 0.4rem;
-    margin-bottom: 0.4rem;
-  }
-
-  .msg-container {
-    height: 24vmin;
-  }
-  #reset-btn {
-    font-size: 1rem;
-    padding: 0.69rem;
-    border-radius: 1rem;
-    position: relative;
-    bottom: 80vmin;
-  }
-
-  h2 {
-    margin-top: 3vmin;
-    height: 8vmin;
   }
 }
