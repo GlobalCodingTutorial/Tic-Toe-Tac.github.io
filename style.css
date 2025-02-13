@@ -9,7 +9,7 @@ body {
 }
 
 .msg-container {
-  height: 22vmin;
+  height: 17vmin;
 }
 
 .hide {
@@ -73,16 +73,17 @@ h2 {
   border-radius: 1rem;
   margin-bottom: 6vmin;
 }
+
 #reset-btn.hide {
   display: none;
 }
 
 @media (min-width: 576px) {
   .msg-container {
-    margin-bottom: 5vmin; 
+    margin-bottom: 5vmin;
   }
   .container {
-    margin-bottom: 0vmin; 
+    margin-bottom: 0vmin;
   }
 }
 
@@ -94,31 +95,63 @@ h2 {
     margin-top: 10vmin;
     margin-bottom: -60vmin;
   }
+  #reset-btn {
+    position: relative;
+    top: 5vmin;
+  }
 }
 
 @media (min-width: 721px) and (max-width: 1024px) {
-  .msg-container#new-btn {
-    margin-bottom: 12vmin;
+  #new-btn {
+    position: relative;
+    top: 3vmin;
   }
   .container {
-    margin-top: 10vmin;
+    margin-top: 4vmin;
     margin-bottom: -70vmin;
+    position: relative;
+    top: 2vmin;
+  }
+  .msg-container {
+    max-height: 18vmin;
+    margin-top: 5vmin;
+    margin-bottom: 5vmin;
+  }
+  h2 {
+    margin-top: 2vmin;
+    margin-bottom: -5vmin;
+  }
+  #reset-btn {
+    position: relative;
+    top: 50vmin;
   }
 }
 
 @media (min-width: 412px) and (max-width: 915px) {
   .container {
-    margin-top: 10vmin;
-    margin-bottom: -80vmin;
+    margin-top: 5vmin;
   }
   #new-btn {
-    color: white;
-    background-color: #191913;
-    font-size: 1.12rem;
-    padding: 0.5rem;
-    border: none;
+    font-size: 1rem;
+    padding: 0.69rem;
     border-radius: 1rem;
     margin-top: 0.4rem;
     margin-bottom: 0.4rem;
+  }
+
+  .msg-container {
+    height: 24vmin;
+  }
+  #reset-btn {
+    font-size: 1rem;
+    padding: 0.69rem;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 80vmin;
+  }
+
+  h2 {
+    margin-top: 3vmin;
+    height: 8vmin;
   }
 }
