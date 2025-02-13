@@ -11,4 +11,6 @@ CSS
 
 JavaScript (Factory Functions and Module Pattern)
 
+demo : https://globalcodingtutorial.github.io/Tic-Toe-Tac.io/
+
 
